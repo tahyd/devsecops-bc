@@ -12,7 +12,7 @@ public class EmployeeController {
 	@GetMapping("/employee/{eid}")
 	public Employee employee(@PathVariable("eid") int eid) {
 		
-		Employee employee = new Employee(eid, "PAV-"+eid);
+		Employee employee = new Employee(eid, "PAV_"+eid);
 		
 		return employee;
 	}
