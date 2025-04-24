@@ -13,7 +13,7 @@ public class EmployeeController {
 	public Employee employee(@PathVariable("eid") int eid) {
 		
 		Employee employee = new Employee(eid, "PAV_"+eid);
-		  System.out.println("*******");
+		 
 		return employee;
 	}
 
